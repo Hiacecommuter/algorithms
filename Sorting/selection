@@ -1,0 +1,23 @@
+"""
+how it works
+every iter, find the index of larger element, swap it into corresponding top  of each iter
+"""
+
+To the largest
+def selection_sort(arr):
+    for i in range(len(arr) -1 , 0, -1):
+      pos = 0
+        for j in range(0, i):
+          if arr[j] > arr[pos]:
+            pos = j
+        swap(arr[pos], arr[i])
+ 
+To the smallest:
+def selection_sort(arr):
+    for i in range(0, len(arr)):
+        pos = i
+        for j in range(i, len(arr)):
+          if arr[j]< arr[pos]:
+            pos = j
+        swap(arr[i], arr[pos]
+        

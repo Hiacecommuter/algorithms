@@ -1,0 +1,3 @@
+Quick sorting is a recursive algorithm
+
+each recursive iter, only pivot point is guaranteed sorted
